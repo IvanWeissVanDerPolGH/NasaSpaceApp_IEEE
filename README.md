@@ -1,5 +1,14 @@
 # DSCOVR the Future
 
+## Trained Models
+
+Decision Tree Regressor: https://storage.googleapis.com/dscovr/output/dt_model.joblib
+Linear Regression: https://storage.googleapis.com/dscovr/output/lr_model.joblib
+
+How to load them:
+
+https://scikit-learn.org/stable/model_persistence.html
+
 ## The Challenge
 Geomagnetic storms pose a significant threat to modern technological infrastructure. These storms, caused by solar winds interacting with Earth's magnetosphere, can lead to a wide range of disturbances. The core challenge lies in predicting these storms accurately, as the repercussions of a failed prediction can be catastrophic, ranging from satellite malfunctions to power grid failures.
 
