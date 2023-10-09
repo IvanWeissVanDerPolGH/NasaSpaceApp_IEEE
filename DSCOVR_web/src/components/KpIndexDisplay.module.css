@@ -1,0 +1,49 @@
+/* KpIndexDisplay.module.css */
+
+
+.kp-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.QUIET {
+    background-color: #27ae60; /* Green background for QUIET */
+}
+
+.Possible_storm {
+    background-color: #f39c12; /* Orange background for Possible_storm */
+}
+
+.Sever_Storm {
+    background-color: #e74c3c; /* Red background for Sever_Storm */
+}
+
+.kp-header {
+    display: flex;
+    align-items: center;
+}
+
+.kp-value {
+    margin: 0;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.kp-index {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.kp-message {
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}

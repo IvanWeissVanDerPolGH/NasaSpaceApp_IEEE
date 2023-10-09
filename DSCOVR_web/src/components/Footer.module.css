@@ -1,0 +1,12 @@
+/* Footer.module.css */
+
+@import './variables.module.css';
+
+.footer {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    padding: var(--spacing-small) 0;
+    text-align: center;
+    font-size: 1rem;
+    border-top: var(--border-standard) var(--highlight-color);
+}

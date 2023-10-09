@@ -1,0 +1,57 @@
+/* Calendar.module.css */
+
+@import './variables.module.css'; /* Import your variables */
+
+/* Add styling for the weekday names */
+.react-calendar__month-view__weekdays {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 0.5rem; /* Add some padding */
+  background-color: var(--secondary-bg-color); /* Set background color */
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  flex: 0 0 14.2857%;
+  overflow: hidden;
+  margin-inline-end: 0px;
+  text-align: center; /* Center-align weekday names */
+  font-weight: bold; /* Make weekday names bold */
+  color: var(--secondary-text-color); /* Set text color */
+}
+
+/* Add styling for the calendar container */
+.react-calendar {
+  width: 800px; /* 90% of the viewport width */
+  max-width: 800px; /* 90% of the viewport width */
+  margin: 0 auto; /* Center the calendar */
+  font-family: Arial, sans-serif;
+  border: var(--border-standard);
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 8px rgb(227, 0, 252);
+  /* max-width: 8000px; Optional: you can set a maximum width to make sure it doesn't become too large on big screens */
+}
+
+/* Adjusting the tile content */
+.react-calendar__tile p {
+  font-size: var(--font-size-small);
+  color: var(--primary-color);
+  border-radius: var(--border-radius);
+  padding: 2px;
+  text-align: center;
+}
+
+.mediumPossible_storm {
+  background-color: var(--mediumPossible_storm-background-color); /* yellow */
+  color: var(--mediumPossible_storm-text-color); /* Contrasting color */
+}
+
+.highPossible_storm {
+  background-color: var(--highPossible_storm-background-color); /* red */
+  color: var(--highPossible_storm-text-color); /* White for better visibility */
+}
+
+.lowPossible_storm {
+  background-color: var(--lowPossible_storm-background-color); /* green */
+  color: var(--lowPossible_storm-text-color); /* White for better visibility */
+}

@@ -1,0 +1,10 @@
+/* Introduction.module.css */
+
+@import './variables.module.css';
+
+.introduction {
+    background-color: var(--secondary-bg-color);
+    color: var(--secondary-text-color);
+    padding: var(--spacing-large);
+    border-bottom: var(--border-standard) var(--highlight-color);
+}

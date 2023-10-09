@@ -1,0 +1,32 @@
+/* variables.module.css */
+
+:root {
+    /* Colors */
+    --primary-bg-color: #2c3e50;
+    --secondary-bg-color: #ecf0f1;
+    --highlight-color: #3498db;
+    --error-color: #e74c3c;
+    --success-color: #27ae60;
+    --Possible_storm-color: #f39c12;
+    --info-color: #9b59b6;
+
+    --lowPossible_storm-background-color: var(--success-color); /* This is the same as the error-color for now (red) */
+    --mediumPossible_storm-background-color:  var(--Possible_storm-color); /* This is the same as the Possible_storm-color for now (yellow) */
+    --highPossible_storm-background-color: var(--error-color); /* This is the same as the error-color for now (red) */
+
+    /* Text colors */
+    --primary-text-color: #ecf0f1;
+    --secondary-text-color: #2c3e50;
+    
+    --lowPossible_storm-text-color: #2c3e50; /* Assuming dark text on green background */
+    --mediumPossible_storm-text-color: #2c3e50; /* Assuming dark text on yellow background */
+    --highPossible_storm-text-color: #ecf0f1; /* Assuming light text on red background */
+    
+    /* Spacing */
+    --spacing-small: 0.5rem;
+    --spacing-medium: 1rem;
+    --spacing-large: 2rem;
+    
+    /* Borders */
+    --border-standard: 1px solid;
+}

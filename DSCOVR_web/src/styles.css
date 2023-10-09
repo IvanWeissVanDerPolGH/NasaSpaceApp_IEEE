@@ -1,0 +1,99 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Calendar container */
+.react-calendar {
+    width: 100%; /* Adjusted to be responsive */
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Increased padding for better spacing */
+    background-color: #fff; /* Added a white background for better readability */
+}
+
+/* Navigation */
+.react-calendar__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.react-calendar__navigation__arrow {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Month label */
+.react-calendar__navigation__label {
+    flex-grow: 1;
+    text-align: center;
+}
+
+/* Weekdays */
+.react-calendar__month-view__weekdays {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+    flex: 0 0 14.2857%;
+    overflow: hidden;
+    margin-inline-end: 0px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Days */
+.react-calendar__month-view__days {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.react-calendar__tile {
+    flex: 0 0 14.2857%;
+    overflow: hidden;
+    margin-inline-end: 0px;
+    position: relative;
+    text-align: center;
+    padding: 5px;
+}
+
+/* Example styles for different types of days */
+.react-calendar__tile p {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.Possible_storm {
+    background-color: yellow;
+    /* Added font color for better readability */
+    color: #333;
+}
+
+.QUIET {
+    background-color: green;
+    color: white;
+}
+
+.Sever_Storm {
+    background-color: red;
+    color: white;
+}
